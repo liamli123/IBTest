@@ -1,0 +1,11 @@
+# Interactive Brokers TWS API Dependencies
+#
+# ib_insync: High-level, Pythonic wrapper around the official IB API.
+# It handles the async event loop, connection management, and provides
+# a much simpler interface than the raw ibapi.
+ib_insync>=0.9.86
+
+# The official IB API (ibapi) is bundled inside ib_insync,
+# so you do NOT need to install it separately.
+# If you ever need the raw API:
+#   pip install ibapi
