@@ -2,7 +2,30 @@
   "permissions": {
     "allow": [
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(apt list:*)",
+      "Bash(dpkg -l:*)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(/home/liamli/Documents/Websites/InteractiveBroker/.venv/bin/pip install:*)",
+      "Bash(/home/liamli/Documents/Websites/InteractiveBroker/.venv/bin/python:*)",
+      "Bash(git -C /home/liamli/Documents/Websites/InteractiveBroker status)",
+      "Bash(git -C /home/liamli/Documents/Websites/InteractiveBroker diff --stat)",
+      "Bash(git -C /home/liamli/Documents/Websites/InteractiveBroker log --oneline -3)",
+      "Bash(git -C /home/liamli/Documents/Websites/InteractiveBroker add tws_api_demo.ipynb)",
+      "Bash(git -C /home/liamli/Documents/Websites/InteractiveBroker commit -m \"$\\(cat <<''EOF''\nAdd Jupyter notebook version of TWS API demo\n\nConvert the Python script into an interactive notebook with separate cells per section, allowing step-by-step execution and individual output inspection.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C /home/liamli/Documents/Websites/InteractiveBroker push)",
+      "Bash(git -C /home/liamli/Documents/Websites/InteractiveBroker ls-files:*)",
+      "Bash(git -C /home/liamli/Documents/Websites/InteractiveBroker diff --stat HEAD)",
+      "Bash(gh api:*)",
+      "Bash(git -C /home/liamli/Documents/Websites/InteractiveBroker fetch origin)",
+      "Bash(git -C /home/liamli/Documents/Websites/InteractiveBroker ls-tree:*)",
+      "Bash(git -C /home/liamli/Documents/Websites/InteractiveBroker push origin main:master --force-with-lease)"
     ]
   }
 }
